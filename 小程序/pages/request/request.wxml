@@ -1,0 +1,14 @@
+<!--pages/request/request.wxml-->
+<!-- <view class="container">
+  {{getReturn}}
+</view>
+
+<view class="container">
+  {{postReturn}}
+</view> -->
+
+<view class="container">
+  <view wx:for="{{list}}">
+  <rich-text nodes="{{item.data}}"></rich-text>
+</view>
+</view>

@@ -1,0 +1,18 @@
+/* pages/about/about.wxss */
+.container{
+  padding: 20rpx;
+  width: 100%;
+}
+.title{
+  text-align: center;
+  margin: 90rpx 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(207, 10, 10, 0.616);
+}
+.detail{
+  margin-left: 200rpx;
+  margin-bottom: 20rpx;
+  font-size: 16px;
+  color: #b15d6a;
+}

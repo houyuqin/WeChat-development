@@ -1,0 +1,5 @@
+<!--pages/direction/direction.wxml-->
+<text>设备方向</text>
+<view class="container">alpha:{{alpha}}</view>
+<view class="container">beta:{{beta}}</view>
+<view class="container">gamma:{{gamma}}</view>

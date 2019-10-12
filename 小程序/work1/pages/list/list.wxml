@@ -1,0 +1,5 @@
+<!--pages/list/list.wxml-->
+<view class="container">
+  <text>当前页面为list页面</text>
+  <text>您刚刚输入的信息为：{{kwd}}</text>
+</view>

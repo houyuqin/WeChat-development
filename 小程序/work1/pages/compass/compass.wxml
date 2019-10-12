@@ -1,0 +1,10 @@
+<!--pages/compass/compass.wxml-->
+<text>罗盘</text>
+
+<view class="container">
+{{angle}}
+</view>
+
+<view class="container">
+{{errinfo}}
+</view>

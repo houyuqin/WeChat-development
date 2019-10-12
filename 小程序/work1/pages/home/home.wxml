@@ -1,0 +1,82 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <text class="title">
+    {{task}}
+  </text>
+</view>
+
+<!-- 提交并转换页面显示提交的内容 -->
+<text class="one">一. 输入信息，该信息将在提交按钮下以及list页面显示</text>
+<view class="container">
+  <form bindsubmit="showList">
+    <input type="text" bindinput="getInput" name="userInput"></input>
+    <button form-type="submit" class="btn">submit</button>
+  </form>
+  <text>{{userInput}}</text>
+</view>
+
+<text class="one">二、查询：</text>
+<view class="container">
+  <form bindsubmit="showSearch">
+    <input type="text" name="userInput"></input>
+    <button form-type="submit" class="btn">查询</button>
+  </form>
+</view>
+
+<text  class="one">三、跳转页面：</text>
+
+<view class="container">
+  <navigator url="/pages/index/index" 
+  open-type="switchTab">
+   1. Index
+  </navigator>
+</view>
+<view class="container">
+  <navigator url="/pages/about/about" 
+  open-type="switchTab">
+  2. About
+  </navigator>
+</view>
+<view class="container">
+  <navigator url="/pages/image/image" 
+  open-type="navigateTo">
+  3.萌宠天地
+  </navigator>
+</view>
+<view class="container">
+  <navigator url="/pages/photo/photo" 
+  open-type="navigateTo">
+  4.拍照
+  </navigator>
+</view>
+
+
+<text  class="one">四、获取信息：</text>
+
+<view class="container">
+  <navigator url="/pages/request/request" 
+  navigator=''>
+     1.request页面
+  </navigator>
+</view>
+
+<view class="container">
+  <navigator url="/pages/sysinfo/sysinfo" 
+  open-type="navigate"> 
+  2.设备信息
+  </navigator>
+</view>
+
+<view class="container">
+  <navigator url="/pages/compass/compass"
+              open-type="navigate">
+  3.罗盘
+  </navigator>
+</view>
+
+<view class="container">
+  <navigator url="/pages/direction/direction"
+              open-type="navigate">
+  4.设备方向
+  </navigator>
+</view>

@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/about/about",
+    "pages/list/list",
+    "pages/request/request",
+    "pages/sysinfo/sysinfo",
+    "pages/compass/compass",
+    "pages/direction/direction",
+    "pages/image/image",
+    "pages/photo/photo",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#588845",
+    "navigationBarTitleText": "微信程序小功能",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index.png",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/study.png",
+        "selectedIconPath": "images/study.png",
+        "text": "Index"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "iconPath": "images/about.png",
+        "selectedIconPath": "images/about.png",
+        "text": "About"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/list/list",
+    "pages/sysinfo/sysinfo",
+    "pages/compass/compass",
+    "pages/direction/direction",
+    "pages/request/request"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#259360",
+    "navigationBarTitleText": "课堂练习小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index.png",
+        "text": "Home"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/study.png",
+        "selectedIconPath": "images/study.png",
+        "text": "Index"
+      }
+    ]
+  }
+}

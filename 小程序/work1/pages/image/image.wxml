@@ -1,0 +1,26 @@
+<!--pages/image/image.wxml-->
+<view class="container">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567654953698&di=d81b3852365b1a90af7ce2eded14c380&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F3721a7cf56c609c4041f5350b5627b573bb2bd6815925-dwAbTj_fw658"
+   mode="widthFix" style="width:100%">
+  </image>
+</view>
+
+<view class="container">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569317356908&di=e71c4f450b21ca48f4fc8d8425db82de&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn22%2F480%2Fw640h640%2F20180511%2Fe3d6-hamfahw6479267.jpg"
+   mode="widthFix" style="width:100%">
+  </image>
+</view>
+
+<view class="container">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569317356910&di=4554d43820030cbf1962c2516e33f80b&imgtype=0&src=http%3A%2F%2Ftravel.people.com.cn%2FNMediaFile%2F2015%2F0819%2FMAIN201508190855000460440099719.jpg"
+   mode="widthFix" style="width:100%">
+  </image>
+</view>
+
+<view class="container">
+  <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569317356910&di=590f29053d68fe23e9fd862fe0ede902&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201201%2F03%2F20120103153600_S2PzA.thumb.700_0.jpg"
+   mode="widthFix" style="width:100%">
+  </image>
+</view>
+
+

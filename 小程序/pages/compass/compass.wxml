@@ -1,0 +1,9 @@
+<!--pages/compass/compass.wxml-->
+
+<view class="container">
+{{angle}}
+</view>
+
+<view class="container">
+{{errinfo}}
+</view>

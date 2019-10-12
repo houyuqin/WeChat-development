@@ -1,0 +1,2 @@
+<!--pages/list/list.wxml-->
+<text>User input:{{kwd}}</text>

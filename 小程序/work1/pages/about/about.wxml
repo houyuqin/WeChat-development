@@ -1,0 +1,16 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+  <text class="title">{{message}}</text>
+</view>
+
+<view class="container">
+  <text class="detail">班级：{{class}}</text>
+  <text class="detail">姓名：{{name}}</text>
+  <text class="detail">学号：{{id}}</text>
+</view>
+
+<view class="container">
+  <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3082664236,510925148&fm=26&gp=0.jpg"
+   mode="widthFix" style="width:100% margin-top:100rpx">
+  </image>
+</view>

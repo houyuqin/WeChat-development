@@ -1,0 +1,76 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <text>Hey,This is class task.</text>
+  <text>{{message}}</text>
+</view>
+
+<view class="container">
+  <text>请输入信息，该信息将在提交按钮下显示：</text>
+  <form bindsubmit="postForm">
+    <input type="text" bindinput="getInput" name="userInput" ></input>
+    <button form-type="submit">submit</button>
+  </form>
+  <text>{{userInput}}</text>
+</view>
+
+<!-- 提交并转换页面显示提交的内容 -->
+<text>请输入信息，该信息将在list页面显示</text>
+<view class="container">
+  <form bindsubmit="showList">
+    <input type="text" name="userInput"></input>
+    <button form-type="submit">submit</button>
+  </form>
+</view>
+
+<!-- 跳转页面 -->
+<view class="container">
+  <navigator url="/pages/index/index" 
+  open-type="switchTab">
+    点击跳转到Index页面
+  </navigator>
+</view>
+
+<view class="container">
+  <navigator url="/pages/request/request" 
+  navigator=''>
+    点击跳转到request页面
+  </navigator>
+</view>
+
+<text>功能：</text>
+<view class="container">
+  <text bindtap="jumpTest">
+  1.go test 显示图片 实现拍照功能
+  </text>
+</view>
+
+
+<view class="container">
+  <navigator url="/pages/sysinfo/sysinfo" 
+  open-type="navigate">2.设备信息
+  </navigator>
+</view>
+
+<view class="container">
+<navigator url="/pages/compass/compass"
+            open-type="navigate">
+3.罗盘
+</navigator>
+</view>
+
+<view class="container">
+<navigator url="/pages/direction/direction"
+            open-type="navigate">
+4.设备方向
+</navigator>
+</view>
+
+<view class="container">
+<navigator url="/pages/request/request"
+            open-type="navigate">
+5.网络请求测试
+</navigator>
+</view>
+
+
+
