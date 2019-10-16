@@ -56,10 +56,35 @@ function userMsg(wxmsg,retmsg) {
     }
 }
 
-exports.help =help;
-exports.userMsg = userMsg;
+// exports.help =help;
+// exports.userMsg = userMsg;
 
+function evenMsg(wxmsg,retmsg){
+    //把返回消息的类型设置为text
+    retmsg.msgtype='text';
+
+    switch(wxmsg.Event){
+        case 'subscribe':
+            retmsg.msg='你好，这是一个测试号，尽管没什么用，但还是谢谢您的关注。';
+            return formatMsg(retmsg);
+        case 'unsubscribe':
+            console.log(wxmsg.FromUserName,'取消关注');
+            break;
+        case 'CLICK':
+            retmsg.msg = wxmsg.EventKey;
+            return formatMsg(retmsg);
+        case 'VIEW':
+            console.log('用户浏览',wxmsg.EventKey);
+            break;
+        default:
+            return '';
+    }
+    return '';
+}
 //后续还会加入事件消息支持
 exports.msgDispatch=function(wxmsg,retmsg){
+    if(wxmsg.MsgType == 'event'){
+        return evenMsg(wxmsg,retmsg);
+    }
     return userMsg(wxmsg,retmsg);
 }
