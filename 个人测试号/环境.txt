@@ -1,0 +1,6 @@
+测试号需要在小程序的运行环境下运行
+为方便，服务器中测试号相关代码放在小程序请求文件代码文件夹minpapi中
+
+安装环境：npm i xml2js
+                 npm i titbit
+                 npm i gohttp@"2.0"
